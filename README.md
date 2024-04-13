@@ -5,7 +5,8 @@ Requirement - i. RabbitMQ-3.12
 Setup - 1. Install Erlang 
         2. Install RabbitMQ 
         3. Open RabbitMQ command prompt
-        4. rabbitmq-plugins enable rabbitmq_management
+        4. First enable rabbitmq_management using - rabbitmq-plugins enable rabbitmq_management 
+           and enable Rabbitmq_mqtt - rabbitmq-plugins enable rabbitmq_mqtt.
         5. After hitting this command Stop and again start rabbitmq service.
         6. Now check hit following link on chrome localhost:15672
         7. Now install MongoDB
@@ -13,3 +14,4 @@ Setup - 1. Install Erlang
 Steps :- 1. Run publisher.py
          2. Run subscriber.py on another powershell.
          
+- 
